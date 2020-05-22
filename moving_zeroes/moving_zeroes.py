@@ -25,8 +25,7 @@ def moving_zeroes(arr):
                     j = j + 1
     return arr
 
-
-
+    # return [i for i in arr if i != 0] + [i for i in arr if i == 0]
 
 if __name__ == '__main__':
     # Use the main function here to test out your implementation
